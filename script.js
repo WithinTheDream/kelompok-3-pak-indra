@@ -1,6 +1,6 @@
 // Mock array of products (replace with your actual products)
 const products = [
-    { name: 'Product 1', image: 'product1.jpg', description: 'Description of Product 1' },
+    { name: 'Product 1', image: 'umg/gojo.jpg', description: 'Description of Product 1' },
     { name: 'Product 2', image: 'product2.jpg', description: 'Description of Product 2' },
     { name: 'Product 3', image: 'product3.jpg', description: 'Description of Product 3' },
     { name: 'Product 4', image: 'product4.jpg', description: 'Description of Product 4' },
