@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>E-Commerce Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="store-profile">
+        <div class="product-image">
+            <img src="umg/gojo.jpg" alt="Product Image">
+        </div>
+        <div class="product-description">
+            <h2>Deskripsi Produk</h2>
+            <p>Deskripsi produk yang menjelaskan keunggulan dan fitur-fitur produk Anda.</p>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <!-- Product items will be dynamically added here -->
+        </div>
+    </section>
+
+    <section class="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </ul>
+        <button onclick="checkout()">Checkout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 E-Commerce Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
