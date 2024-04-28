@@ -48,8 +48,16 @@ header nav ul li {
 
 img {
     background-color: white;
-    border: 5px solid #ccc;
-    padding: 10px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -62,23 +70,38 @@ img {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ubah agar tata letak lebih responsif */
+    grid-gap: 30px; /* Kurangi jarak antar grid untuk tampilan yang lebih rapat */
+    justify-items: center; /* Pusatkan item di dalam grid secara horizontal */
 }
 
 .product {
-    border: 5px solid #ccc;
-    padding: 10px;
+    border: 11px ridge #efefef;
+    padding: 40px; /* Ubah padding agar konten lebih terfokus */
     text-align: center;
+    transition: transform 0.3s ease; /* Tambahkan transisi untuk efek hover */
+}
 
+.product:hover {
+    transform: translateY(-5px); /* Geser sedikit item saat dihover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan saat dihover */
 }
 
 .product-description {
     text-align: center;
+    margin-top: 20px; /* Tambahkan margin agar deskripsi terpisah dari gambar */
 }
 
 .product img {
-    max-width: 100%;
+    max-width: 100%; /* Pastikan gambar tidak melebihi lebar konten */
+    height: auto; /* Biarkan tinggi gambar disesuaikan secara otomatis */
+    border-radius: 10px; /* Tambahkan sudut bulat pada gambar */
+    object-fit: cover; /* Pastikan gambar tetap proporsional */
+    transition: transform 0.3s ease; /* Tambahkan transisi untuk efek hover */
+}
+
+.product img:hover {
+    transform: scale(1.05); /* Perbesar gambar saat dihover */
 }
 
 .cart {
@@ -86,12 +109,23 @@ img {
 }
 
 .cart button {
-    margin-top: 10px;
+    margin-top: 20px; /* Tambahkan sedikit margin agar tombol terpisah dari konten sekitarnya */
+    background-color: #333; /* Ganti warna latar belakang tombol */
+    color: #fff; /* Ganti warna teks tombol agar lebih kontras */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Tambahkan transisi untuk efek hover */
+}
+
+.cart button:hover {
+    background-color: #555; /* Ganti warna latar belakang saat dihover */
 }
 
 footer {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0; /* Tambahkan sedikit padding agar konten lebih terpisah dari tepi */
     text-align: center;
 }

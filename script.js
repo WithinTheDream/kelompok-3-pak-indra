@@ -1,14 +1,14 @@
 // Mock array of products (replace with your actual products)
 const products = [
-    { name: 'Product 1', image: 'umg/gojo.jpg', description: 'Description of Product 1' },
-    { name: 'Product 2', image: 'product2.jpg', description: 'Description of Product 2' },
-    { name: 'Product 3', image: 'product3.jpg', description: 'Description of Product 3' },
-    { name: 'Product 4', image: 'product4.jpg', description: 'Description of Product 4' },
+    { name: 'Product 1', image: 'img/produk1.png', description: 'Description of Product 1' },
+    { name: 'Product 2', image: 'img/produk2.png', description: 'Description of Product 2' },
+    { name: 'Product 3', image: 'img/produk3.jpg', description: 'Description of Product 3' },
+    { name: 'Product 4', image: 'img/produk4.png', description: 'Description of Product 4' },
 
-    { name: 'Product 5', image: 'product5.jpg', description: 'Description of Product 5' },
-    { name: 'Product 6', image: 'product6.jpg', description: 'Description of Product 6' },
-    { name: 'Product 7', image: 'product7.jpg', description: 'Description of Product 7' },
-    { name: 'Product 8', image: 'product8.jpg', description: 'Description of Product 8' },
+    { name: 'Product 5', image: 'img/produk5.png', description: 'Description of Product 5' },
+    { name: 'Product 6', image: 'img/produk6.png', description: 'Description of Product 6' },
+    { name: 'Product 7', image: 'img/produk7.jpg', description: 'Description of Product 7' },
+    { name: 'Product 8', image: 'img/produk8.png', description: 'Description of Product 8' },
 
     { name: 'Product 1', image: 'product1.jpg', description: 'Description of Product 1' },
     { name: 'Product 2', image: 'product2.jpg', description: 'Description of Product 2' },
