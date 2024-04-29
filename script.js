@@ -22,6 +22,17 @@ const products = [
     // Add more products here
 ];
 
+
+  // Menambahkan event listener untuk tombol "Products"
+  document.getElementById('products-link').addEventListener('click', function(event) {
+    event.preventDefault(); // Menghentikan perilaku default dari tautan
+
+    // Scroll ke bagian "Produk Kami"
+    document.getElementById('Produk-Kami').scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+
 // Function to dynamically generate product grid
 function generateProductGrid() {
     const productGrid = document.querySelector('.product-grid');
@@ -54,6 +65,7 @@ function generateProductGrid() {
         productGrid.appendChild(productItem);
     });
 }
+
 
 // Generate product grid when the page loads
 window.onload = generateProductGrid;

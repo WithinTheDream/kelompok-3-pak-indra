@@ -129,3 +129,58 @@ footer {
     padding: 20px 0; /* Tambahkan sedikit padding agar konten lebih terpisah dari tepi */
     text-align: center;
 }
+
+
+.logo h1 {
+    margin: 0;
+}
+
+.checkout {
+    margin: 20px;
+}
+
+.checkout h2 {
+    font-size: 24px;
+}
+
+.checkout form {
+    margin-top: 20px;
+}
+
+.checkout label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.checkout input[type="text"],
+.checkout input[type="email"],
+.checkout textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkout button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
